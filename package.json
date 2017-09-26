@@ -1,0 +1,28 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "API CRUD de Demos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedinaVilla/api-test.git"
+  },
+  "author": "Bombe Software",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MedinaVilla/api-test.git/issues"
+  },
+  "homepage": "https://github.com/MedinaVilla/api-test.git#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
